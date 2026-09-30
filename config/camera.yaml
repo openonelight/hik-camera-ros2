@@ -1,0 +1,10 @@
+/hik_camera:
+  ros__parameters:
+    # Serial number is supplied as a launch argument, not committed here.
+    image_topic: /image_raw
+    frame_id: camera_optical_frame
+    exposure_time: 20000.0
+    gain: 0.0
+    frame_rate: 30.0
+    pixel_format: BayerRG8
+    reliable: true
